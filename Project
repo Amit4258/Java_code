@@ -1,0 +1,3996 @@
+&lt;!DOCTYPE html&gt;
+
+&lt;html lang=”en”&gt;
+
+&lt;head&gt;
+
+&lt;meta charset=”UTF-8”&gt;
+
+&lt;meta name=”viewport” content=”width=device-width, initial-scale=1.0”&gt;
+
+&lt;title&gt;Food Mania&lt;/title&gt;
+
+&lt;!—bootstrap css
+
+&lt;link rel=”stylesheet” href=”css/bootstrap.min.css”&gt;
+
+&lt;!—main css
+
+&lt;script src=”js/all.js”&gt;&lt;/script&gt;
+
+&lt;link rel=”stylesheet” href=”css/main.css”&gt;
+
+&lt;!—google fonts
+
+&lt;link href=https://fonts.googleapis.com/css?family=Stylish rel=”stylesheet”&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;!—social icons
+
+&lt;div class=”container-fluid info p-3” id=”top-icons”&gt;
+
+&lt;div class=”row”&gt;
+
+&lt;div class=”col d-flex justify-content-between align-items-baseline flex-wrap”&gt;
+
+&lt;div class=”info-icons p-2”&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-facebook fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-instagram fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-twitter fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-yelp fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;h2 class=”primary-color p-2 text-capitalize”&gt;Eat &amp; repeat &lt;/h2&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!—end of social icons
+
+&lt;!—header section
+
+&lt;header id=”header”&gt;
+
+&lt;div class=”container”&gt;
+
+&lt;div class=”row height-98 align-items-center justify-content-center”&gt;
+
+&lt;div class=”col”&gt;
+
+&lt;div class=”banner text-center”&gt;
+
+&lt;h1 class=”display-1 text-capitalize w-50 mx-auto”&gt;
+
+&lt;small&gt;Food&lt;/small&gt;&lt;strong class=”primary-color”&gt;MANIA&lt;/strong&gt;
+
+&lt;/h1&gt;
+
+&lt;a href=”L1.html” class=”btn main-btn sushi-btn my-4 text-capitalize”&gt;Login here&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/header&gt;
+
+&lt;!—end of header section
+
+&lt;h1 class=”btn main-btn my-4 text-capitalize” onclick=”clickFunction()”&gt;Book table&lt;/h1&gt;
+
+&lt;h1&gt;&lt;center&gt;&lt;font color=”green”&gt;Top Restaurants&lt;/font&gt;&lt;/center&gt;&lt;/h1&gt;
+
+&lt;section class=”py-5” id=”special-items”&gt;
+
+&lt;div class=”container my-5”&gt;
+
+&lt;div class=”row parent-container”&gt;
+
+&lt;!—menu items
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest1.jpg” class=”shake” onclick=”clickFunction()”&gt;
+
+&lt;h1 class=”text-uppercase text-center “ onclick=”clickFunction()”&gt;zaika&lt;/h1&gt;
+
+&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest2.jpg” class=”shake” onclick=”clickFunction()”&gt;
+
+&lt;h1 class=”text-uppercase text-center “ onclick=”clickFunction()”&gt;Food hub&lt;/h1&gt;
+
+&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!—menu items
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest3.jpeg” class=”shake” onclick=”clickFunction()”&gt;
+
+&lt;h1 class=”text-uppercase text-center “ onclick=”clickFunction()”&gt;warm delight&lt;/h1&gt;
+
+&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!—menu items
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest4.jpg” class=”shake” onclick=”clickFunction()”&gt;
+
+&lt;h1 class=”text-uppercase text-center “ onclick=”clickFunction()”&gt;snack point&lt;/h1&gt;
+
+&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!—menu items
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest5.jpg” class=”shake” onclick=”clickFunction()” &gt;
+
+&lt;h1 class=”text-uppercase text-center “ onclick=”clickFunction()”&gt;coffee &amp; crisp&lt;/h1&gt;
+
+&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!—menu items
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest6.jpg” class=”shake” onclick=”clickFunction()” &gt;
+
+&lt;h1 class=”text-uppercase text-center “ onclick=”clickFunction()”&gt;Art with food&lt;/h1&gt;
+
+&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;!—end of menuitems
+
+&lt;!—about
+
+&lt;section id=”about” class=”py-5”&gt;
+
+&lt;div class=”container”&gt;
+
+&lt;div class=”row”&gt;
+
+&lt;div class=”col-md-6 my-4”&gt;
+
+&lt;h1 class=”text-uppercase display-3”&gt;about us&lt;/h1&gt;
+
+&lt;h2 class=”text-muted”&gt;yummy in your tummy. Because no food no life.&lt;/h2&gt;
+
+&lt;a href=”about us.html” class=”btn main-btn my-4 text-capitalize”&gt;learn more&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-md-6 about-pictures my-4 d-none d-lg-block”&gt;
+
+&lt;img src=”rest1.jpg” alt=”menu” class=”img-1 img-thumbnail about-image”&gt;
+
+&lt;img src=”rest2.jpg” alt=”menu” class=”img-3 img-thumbnail about-image”&gt;
+
+&lt;img src=”rest3.jpg” alt=”menu” class=”img-2 img-thumbnail about-image”&gt;
+
+&lt;img src=”rest4.jpg” alt=”menu” class=”img-4 img-thumbnail about-image”&gt;
+
+&lt;img src=”rest5.jpg” alt=”menu” class=”img-5 img-thumbnail about-image”&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;!—end of about
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;!—social icons
+
+&lt;div class=”container-fluid info p-3”&gt;
+
+&lt;div class=”row”&gt;
+
+&lt;div class=”col d-flex justify-content-between align-items-baseline flex-wrap”&gt;
+
+&lt;div class=”info-icons p-2”&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-facebook fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-instagram fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-twitter fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-yelp fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;h2 class=”primary-color p-2 uppercase”&gt;FOOD MANIA&lt;/h2&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!—end of social icons
+
+&lt;a href=”#top-icons” id=”back-to-top” class=”p-1”&gt;&lt;I class=”fas fa-arrow-up primary-color fa-
+3x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;script&gt;
+
+Function clickFunction() {
+
+Alert(“Login first!”);
+
+}
+
+&lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+Main.css
+
+.info{
+
+Background: #c9c1ac;
+
+}
+
+}
+
+Body{
+
+Font-family: ‘Stylish’, sans-serif;
+
+Color: #c9c1ac;
+
+Background: url(backg.jpg)center/cover fixed no-repeat;
+
+}
+
+.primary-color{
+
+Color: #fefbd8;
+
+}
+
+.info h2{
+
+Word-spacing: 0.6rem;
+
+}
+
+.info a{
+
+Transition: color 4s ease-in-out ;
+
+}
+
+.info a:hover{
+
+Color: #f18973;
+
+}
+
+/*header*#############*/
+
+#header{
+
+Min-height:calc(100vh – 94px);
+
+Background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(../img/black-bean-close-up-cooked-
+1640774.jpg);
+
+Background-position: center;
+
+Background-size: cover;
+
+Background-attachment: fixed;
+
+Background-repeat: no-repeat;
+
+Position: relative;
+
+}
+
+.height-98{
+
+Min-height:calc(100vh – 94px);
+
+}
+
+Img {
+
+Display: block;
+
+Height: 250px;
+
+Width: 250px;
+
+}
+
+@-webkit-keyframes spaceboots {
+
+0% { -webkit-transform: translate(2px, 1px) rotate(0deg); }
+
+10% { -webkit-transform: translate(-1px, -2px) rotate(-1deg); }
+
+20% { -webkit-transform: translate(-3px, 0px) rotate(1deg); }
+
+30% { -webkit-transform: translate(0px, 2px) rotate(0deg); }
+
+40% { -webkit-transform: translate(1px, -1px) rotate(1deg); }
+
+50% { -webkit-transform: translate(-1px, 2px) rotate(-1deg); }
+
+60% { -webkit-transform: translate(-3px, 1px) rotate(0deg); }
+
+70% { -webkit-transform: translate(2px, 1px) rotate(-1deg); }
+
+80% { -webkit-transform: translate(-1px, -1px) rotate(1deg); }
+
+90% { -webkit-transform: translate(2px, 2px) rotate(0deg); }
+
+100% { -webkit-transform: translate(1px, -2px) rotate(-1deg); }
+
+}
+
+.shake:hover,
+
+.shake:focus {
+
+-webkit-animation-name: spaceboots;
+
+-webkit-animation-duration: 0.8s;
+
+-webkit-transform-origin:50% 50%;
+
+-webkit-animation-iteration-count: infinite;
+
+-webkit-animation-timing-function: linear;
+
+}
+
+.banner h1{
+
+Border-top: 12px solid #d5f4e6;
+
+Border-bottom: 12px solid #f18973;
+
+Animation: fromLeft;
+
+Animation-duration: 4s;
+
+Animation-delay: 1s;
+
+Opacity: 0;
+
+Animation-fill-mode: forwards;
+
+}
+
+@keyframes fromLeft{
+
+0%{
+
+Transform:translateX(-100px);
+
+Opacity: 0;
+
+}
+
+50%{
+
+Transform:translateX(30px);
+
+}
+
+100%{
+
+Transform: translateX(0);
+
+Opacity: 1;
+
+}
+
+}
+
+.main-btn{
+
+Color: #80ced6;
+
+Font-size: 2rem;
+
+Border: 2px solid #bbff00;
+
+Transition:all 1s ease-in-out;
+
+}
+
+.main-btn:hover{
+
+Color: #3434;
+
+Border: 5px solid #11ffeeff;
+
+Background: #1fef;
+
+}
+
+.sushi-btn{
+
+Animation: fromRight;
+
+Animation-duration: infinite;
+
+Animation-delay: 0s;
+
+Opacity: 0;
+
+Animation-fill-mode: forwards;
+
+}
+
+@keyframes fromRight {
+
+0% {
+
+Transform: translateX(0px) rotate(0deg);
+
+}
+
+20% {
+
+Transform: translateX(-4px) rotate(-4deg);
+
+}
+
+40% {
+
+Transform: translateX(-2px) rotate(-2deg);
+
+}
+
+60% {
+
+Transform: translateX(4px) rotate(4deg);
+
+}
+
+80% {
+
+Transform: translateX(2px) rotate(2deg);
+
+}
+
+100% {
+
+Transform: translateX(0px) rotate(0deg);
+
+}
+
+}
+
+@keyframes fromRight{
+
+0%{
+
+Transform:translateX(100px);
+
+Opacity: 0;
+
+}
+
+50%{
+
+Transform:translateX(-30px);
+
+}
+
+100%{
+
+Transform: translateX(0);
+
+Opacity: 1;
+
+}
+
+}
+
+.header-link{
+
+Display: inline block;
+
+Position:absolute;
+
+Bottom: 5%;
+
+Left: 50%;
+
+Background: #11ffee00;
+
+Border-radius:10px;
+
+Transition: all 6s ease;
+
+Animation:fromBottom;
+
+Animation-duration: infinite;
+
+Animation-iteration-count: infinite;
+
+}
+
+.header-link:hover{
+
+Color: #224422;
+
+}
+
+@keyframes fromBottom{
+
+0%{
+
+Transform: translateY(-10px);
+
+}
+
+50%{
+
+Transform: translateY(10px);
+
+}
+
+100%{
+
+Transform:translateY(-10px);
+
+}
+
+}
+
+/* navbar*/
+
+.navbar {
+
+Background: #1fe0;
+
+Padding: 20px 20px;
+
+Transition: all 6s ease;
+
+}
+
+.navbar-background {
+
+Padding: 5px 20px;
+
+}
+
+.navbar-brand {
+
+Font-size: 30px;
+
+Transition: all 1s ease;
+
+}
+
+.navbar-brand:hover {
+
+Color: #242424;
+
+}
+
+.nav-link{
+
+Color: #242424;
+
+Text-decoration: none;
+
+Transition: all 6s ease;
+
+Font-size: 23px;
+
+}
+
+.nav-link:hover{
+
+Color: #d3325f;
+
+}
+
+.nav-btn{
+
+Background: transparent;
+
+Color: #d3325f;
+
+Border: 2px solid #d3325f;
+
+Font-size: 23px;
+
+Transition: all 6s ease;
+
+}
+
+.nav-btn:hover{
+
+Color: #242424;
+
+Border: 2px solid #242424;
+
+Transform: rotate(10deg)
+
+}
+
+.toggler-btn{
+
+Border: 2px solid #d3325f;
+
+Padding: 5px;
+
+Transition: all 6s ease;
+
+}
+
+.bar {
+
+Width: 30px;
+
+Height: 3px;
+
+Margin: 5px;
+
+Background: #d3325f;
+
+Transition: all 0.5s ease;
+
+}
+
+.change .bar1 {
+
+Transform: rotate(-45deg) translate(-5px, 6px);
+
+}
+
+.change .bar2 {
+
+Opacity: 0;
+
+}
+
+.change .bar3 {
+
+Transform: rotate(45deg) translate(-5px, -8px);
+
+}
+
+/*####menuitems#*/
+
+.item-conatiner{
+
+Position: relative;
+
+/*for the link*/
+
+Overflow: hidden;
+
+Background: linear-gradient(rgba(0,0,0,5),rgba(0,0,0,5));
+
+Transition: all 4s ease;
+
+}
+
+.item-img{
+
+Transition: all 2s ease;
+
+}
+
+.item-container:hover .item-img{
+
+Transform: scale(1.2);
+
+Opacity: 0.5;
+
+}
+
+.item-link{
+
+Position: absolute;
+
+Top: 50%;
+
+Left: 50%;
+
+Transform: translate(-75%,-50%);
+
+Color: #d3325f;
+
+Font-size: 2rem;
+
+Border-top: 3px solid #d3325f;
+
+Border-bottom: 3px solid #d3325f;
+
+Transition: all 2s ease;
+
+Opacity: 0;
+
+}
+
+.item-container:hover .item-link{
+
+Opacity: 1;
+
+}
+
+.item-link:hover{
+
+Color: #c9c1ac;
+
+Border: 3px solid #00FFFF;
+
+Background: #00FFFF;
+
+Color: #008000;
+
+}
+
+.item-container:hover{
+
+Outline: 10px solid #c9c1ac;
+
+Outline-offset: 0.8rem;
+
+}
+
+/*######MENU*/
+
+#menu{
+
+Background: linear-gradient(rgba(0, 128, 0, 0.3),rgba(255,255,255,0.7));
+
+}
+
+.special{
+
+Border: 3px solid #bbff00;
+
+Position: relative;
+
+}
+
+.special-text{
+
+Position: absolute;
+
+Top: 0;
+
+Right: 10%;
+
+Background: indigo;
+
+Padding: 0 0.4 rem;
+
+}
+
+/* aboutttttttttttttttt*/
+
+.about-picturtes {
+
+Position: relative;
+
+}
+
+.about-image {
+
+Position: absolute;
+
+Width: 150px;
+
+Transition: all 2s ease;
+
+Opacity: 0.9;
+
+}
+
+.img-1{
+
+Left: 0%;
+
+Top: 0%;
+
+}
+
+.img-2{
+
+Left: 20%;
+
+Top: 20%;
+
+z-index: 10;
+
+}
+
+.img-3{
+
+Left: 40%;
+
+Top: 45%;
+
+z-index: 20;
+
+}
+
+.img-4{
+
+Left: 40%;
+
+Top: -20%;
+
+}
+
+.img-5 {
+
+Left: 0%;
+
+Top: 45%;
+
+}
+
+.about-image:hover {
+
+Outline: 10px solid #7FFFD4;
+
+Outline-offset: 0.8rem;
+
+Transform: scale(1.3) rotate(20deg);
+
+z-index: 30;
+
+opacity: 1;
+
+}
+
+.about-pictures:hover .about-image:not(:hover) {
+
+Opacity: 0.5;
+
+}
+
+/*review section*/
+
+.review-item {
+
+Background: rgba(255,0,0,0.3);
+
+Clip-path: polygon(5% 0, 100% 0, 90% 100%, 0 100%)
+
+}
+
+.review-img {
+
+Width: 150px;
+
+}
+
+/*footer*/
+
+#back-to-top {
+
+Background: #228B22;
+
+Border-radius: 10px;
+
+Display: inline-block;
+
+}
+
+.scrollTop {
+
+Position: fixed;
+
+Bottom: 70px;
+
+Right: 10px;
+
+}
+
+L1.html
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html lang=”en”&gt;
+
+&lt;head&gt;
+
+&lt;meta charset=”UTF-8”&gt;
+
+&lt;title&gt;Login Form Validation using Javascript&lt;/title&gt;
+
+&lt;link rel=”stylesheet” href=”style1.css”&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;div class=”wrapper”&gt;
+
+&lt;div class=”form”&gt;
+
+&lt;div class=”title”&gt;
+
+Login To Food Mania
+
+&lt;/div&gt;
+
+&lt;form method=”post” action=”index.html” onsubmit=”return validation();”&gt;
+
+&lt;div class=”input_wrap”&gt;
+
+&lt;label for=”input_text”&gt;Email or Username&lt;/label&gt;
+
+&lt;div class=”input_field”&gt;
+
+&lt;input type=”text” class=”input” id=”input_text”&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”input_wrap”&gt;
+
+&lt;label for=”input_password”&gt;Password&lt;/label&gt;
+
+&lt;div class=”input_field”&gt;
+
+&lt;input type=”password” class=”input” id=”input_password”&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”input_wrap”&gt;
+
+&lt;label for=”input_address”&gt;Address&lt;/label&gt;
+
+&lt;div class=”input_field”&gt;
+
+&lt;input type=”Address” class=”input” id=”input_address”&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”input_wrap”&gt;
+
+&lt;label for=”input_phone”&gt;Phone&lt;/label&gt;
+
+&lt;div class=”input_field”&gt;
+
+&lt;input type=”phone” class=”input” id=”input_phone”&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”input_wrap”&gt;
+
+&lt;span class=”error_msg”&gt;Incorrect username or password. Please try
+
+again&lt;/span&gt;
+
+&lt;input type=”submit” id=”login_btn” class=”btn disabled” value=”Login”
+
+disabled=”true”&gt;
+
+&lt;/div&gt;
+
+&lt;center&gt;Not a user?&lt;a href=”sign.html”&gt; sign up now&lt;/a&gt;&lt;/center&gt;
+
+&lt;/form&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script src=”scripts.js”&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+Sign.html
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html lang=”en”&gt;
+
+&lt;head&gt;
+
+&lt;meta charset=”UTF-8”&gt;
+
+&lt;title&gt;Login Form Validation using Javascript&lt;/title&gt;
+
+&lt;link rel=”stylesheet” href=”style1.css”&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;div class=”wrapper”&gt;
+
+&lt;div class=”form”&gt;
+
+&lt;div class=”title”&gt;
+
+&lt;/div&gt;
+
+&lt;form method=”post” action=”index.html” onsubmit=”return validation();”&gt;
+
+&lt;div class=”input_wrap”&gt;
+
+&lt;label for=”input_text”&gt;Email or Username&lt;/label&gt;
+
+&lt;div class=”input_field”&gt;
+
+&lt;input type=”text” class=”input” id=”input_text”&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”input_wrap”&gt;
+
+&lt;label for=”input_password”&gt;Password&lt;/label&gt;
+
+&lt;div class=”input_field”&gt;
+
+&lt;input type=”password” class=”input” id=”input_password”&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”input_wrap”&gt;
+
+&lt;label for=”input_password”&gt;Confirm Password&lt;/label&gt;
+
+&lt;div class=”input_field”&gt;
+
+&lt;input type=”password” class=”input” id=”input_password1”&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”input_wrap”&gt;
+
+&lt;label for=”input_address”&gt;Address&lt;/label&gt;
+
+&lt;div class=”input_field”&gt;
+
+&lt;input type=”Address” class=”input” id=”input_address”&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”input_wrap”&gt;
+
+&lt;label for=”input_phone”&gt;Phone&lt;/label&gt;
+
+&lt;div class=”input_field”&gt;
+
+&lt;input type=”phone” class=”input” id=”input_phone”&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”input_wrap”&gt;
+
+&lt;span class=”error_msg”&gt;Incorrect username or password. Please try
+
+again&lt;/span&gt;
+
+&lt;input type=”submit” id=”login_btn” class=”btn disabled” value=”sign
+
+up” disabled=”true”&gt;
+
+&lt;/div&gt;
+
+&lt;/form&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script src=”scripts.js”&gt;&lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+Style1.css
+
+@import url(‘https://fonts.googleapis.com/css2?family=Jost:wght@400;700&amp;display=swap’);
+
+*{
+
+Margin: 0;
+
+Padding: 0;
+
+Box-sizing: border-box;
+
+Font-family: ‘Jost’, sans-serif;
+
+Outline: none;
+
+Color: #5c4b51;
+
+}
+
+Body{
+
+Background: linear-gradient(to right, #f4b661, #f16160);
+
+}
+
+.wrapper{
+
+Min-height: 100vh;
+
+Display: flex;
+
+Justify-content: center;
+
+Align-items: center;
+
+}
+
+.form{
+
+Width: 425px;
+
+Height: auto;
+
+Background: #fff;
+
+Padding: 35px 50px;
+
+Border-radius: 2px;
+
+}
+
+.form .title{
+
+Text-align: center;
+
+Margin-bottom: 20px;
+
+Font-weight: 700;
+
+Font-size: 24px;
+
+}
+
+.form .input_wrap{
+
+Margin-bottom: 20px;
+
+Width: 325px;
+
+Position: relative;
+
+}
+
+.form .input_wrap:last-child{
+
+Margin-bottom: 0;
+
+}
+
+.form .input_wrap label{
+
+Display: block;
+
+Margin-bottom: 5px;
+
+}
+
+.form .input_wrap input{
+
+Padding: 15px;
+
+Width: 100%;
+
+Border: 1px solid transparent;
+
+Font-size: 16px;
+
+Border-radius: 3px;
+
+}
+
+.form .input_wrap .input{
+
+Background: #f5f4f4;
+
+Padding-right: 35px;
+
+}
+
+.form .input_wrap .input:focus{
+
+Border-color: #1dbf73;
+
+}
+
+.form .input_wrap .input_field{
+
+Position: relative;
+
+}
+
+.form .input_wrap .btn{
+
+Text-transform: uppercase;
+
+Letter-spacing: 3px;
+
+Color: #fff;
+
+}
+
+.form .input_wrap .btn.disabled{
+
+Background: #727272;
+
+}
+
+.form .input_wrap .btn.enabled{
+
+Background: #1dbf73;
+
+Cursor: pointer;
+
+}
+
+.form .input_wrap .error_msg{
+
+Font-size: 15px;
+
+Margin-bottom: 5px;
+
+Color: #f74040;
+
+Display: none;
+
+}
+
+Scripts.js
+
+Function validation(){
+
+Var input_text = document.querySelector(“#input_text”);
+
+Var input_password = document.querySelector(“#input_password”);
+
+Var error_msg = document.querySelector(“.error_msg”);
+
+Var input_password1 = document.querySelector(“#input_password1”);
+
+Var input_address = document.querySelector(“#input_address”);
+
+Var input_phone = document.querySelector(“#input_phone”); if(input_text.value.length &lt;= 3
+|| input_password.value.length &lt;= 3 || input_password1.value.length != input_password.value.length
+|| input_address.value.length &lt;= 6 || input_phone.value != 10) {
+
+Error_msg.style.display = “inline-block”;
+
+Input_text.style.border = “1px solid #f74040”;
+
+Input_password.style.border = “1px solid #f74040”;
+
+Return false;
+
+}
+
+Else{
+
+Return true;
+
+}
+
+}
+
+Var input_fields = document.querySelectorAll(“.input”);
+
+Var login_btn = document.querySelector(“#login_btn”);
+
+Input_fields.forEach(function(input_item){
+
+Input_item.addEventListener(“input”, function(){
+
+If(input_item.value.length &gt; 3){
+
+Login_btn.disabled = false;
+
+Login_btn.className = “btn enabled”
+
+}
+
+})
+
+Index.html
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html lang=”en”&gt;
+
+&lt;head&gt;
+
+&lt;meta charset=”UTF-8”&gt;
+
+&lt;meta name=”viewport” content=”width=device-width, initial-scale=1.0”&gt;
+
+&lt;title&gt;Food Mania&lt;/title&gt;
+
+&lt;!—bootstrap css
+
+&lt;link rel=”stylesheet” href=”css/bootstrap.min.css”&gt;
+
+&lt;script src=”js/all.js”&gt;&lt;/script&gt;
+
+&lt;!—main css
+
+&lt;link rel=”stylesheet” href=”css/main.css”&gt;
+
+&lt;!—font awesome js
+
+&lt;!—google fonts
+
+&lt;link href=https://fonts.googleapis.com/css?family=Stylish rel=”stylesheet”&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;!—social icons
+
+&lt;div class=”container-fluid info p-3” id=”top-icons”&gt;
+
+&lt;div class=”row”&gt;
+
+&lt;div class=”col d-flex justify-content-between align-items-baseline flex-wrap”&gt;
+
+&lt;div class=”info-icons p-2”&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-facebook fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-instagram fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-twitter fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-yelp fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;a href=”home-1.html” class=”primary-color p-2 text-capitalize”&gt;log out&lt;/a&gt;
+
+&lt;h2 class=”primary-color p-2 text-capitalize”&gt;Eat &amp; repeat &lt;/h2&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!—end of social icons
+
+&lt;!—header section
+
+&lt;header id=”header”&gt;
+
+&lt;div class=”container”&gt;
+
+&lt;div class=”row height-98 align-items-center justify-content-center”&gt;
+
+&lt;div class=”col”&gt;
+
+&lt;div class=”banner text-center”&gt;
+
+&lt;h1 class=”display-1 text-capitalize w-50 mx-auto”&gt;
+
+&lt;small&gt;Food&lt;/small&gt;&lt;strong class=”primary-color”&gt;MANIA&lt;/strong&gt;
+
+&lt;/h1&gt;
+
+&lt;a href=”bo.html” class=”btn main-btn sushi-btn my-4 text-capitalize”&gt;book
+tables&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;h2&gt;&lt;font color=”pink”&gt;order here&lt;/font&gt;&lt;/h2&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;a href=”#special items” class=”btn header-link primary-color”&gt;&lt;I class=”fas fa-arrow-
+down”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;/header&gt;
+
+&lt;section class=”py-5” id=”special-items”&gt;
+
+&lt;div class=”container my-5”&gt;
+
+&lt;div class=”row parent-container”&gt;
+
+&lt;h1&gt;&lt;font color=”green”&gt;Top Restaurants&lt;/font&gt;&lt;/h1&gt;
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest1.jpg” class=”shake” &gt;
+
+&lt;h1 class=”text-uppercase “ onclick=”window.location.href = ‘crt1.html’ “&gt;zaika&lt;/h1&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest2.jpg” class=”shake”&gt;
+
+&lt;h1 class=”text-uppercase “onclick=”window.location.href = ‘crt2.html’”&gt;Food
+hub&lt;/h1&gt;
+
+&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest3.jpeg” class=”shake” &gt;
+
+&lt;h1 class=”text-uppercase “onclick=”window.location.href = ‘crt3.html’”&gt;Snack
+Point&lt;/h1&gt;
+
+&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest4.jpg” class=”shake” &gt;
+
+&lt;h1 class=”text-uppercase “onclick=”window.location.href = ‘crt4.html’”&gt;Warm
+Delight&lt;/h1&gt;
+
+&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest5.jpg” class=”shake” &gt;
+
+&lt;h1 class=”text-uppercase “onclick=”window.location.href = ‘crt5.html’”&gt;coffee &amp;
+crisp&lt;/h1&gt;
+
+&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-10 mx-auto col-sm-6 col-lg-4 my-3”&gt;
+
+&lt;div class=”item-container”&gt;
+
+&lt;img src=”rest6.jpg” class=”shake”&gt;
+
+&lt;h1 class=”text-uppercase “onclick=”window.location.href = ‘crt6.html’”&gt;Art with
+food&lt;/h1&gt;
+
+&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;!—about
+
+&lt;section id=”about” class=”py-5”&gt;
+
+&lt;div class=”container”&gt;
+
+&lt;div class=”row”&gt;
+
+&lt;div class=”col-md-6 my-4”&gt;
+
+&lt;h1 class=”text-uppercase display-3”&gt;about us&lt;/h1&gt;
+
+&lt;h2 class=”text-muted”&gt;yummy in your tummy. Good food good mood.&lt;/h2&gt;
+
+&lt;a href=”about us.html” class=”btn main-btn my-4 text-capitalize”&gt;learn more&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-md-6 about-pictures my-4 d-none d-lg-block”&gt;
+
+&lt;img src=”rest1.jpg” alt=”menu” class=”img-1 img-thumbnail about-image”&gt;
+
+&lt;img src=”rest2.jpg” alt=”menu” class=”img-3 img-thumbnail about-image”&gt;
+
+&lt;img src=”rest3.jpg” alt=”menu” class=”img-2 img-thumbnail about-image”&gt;
+
+&lt;img src=”rest4.jpg” alt=”menu” class=”img-4 img-thumbnail about-image”&gt;
+
+&lt;img src=”rest5.jpg” alt=”menu” class=”img-5 img-thumbnail about-image”&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;!—end of about
+
+&lt;!—social icons
+
+&lt;div class=”container-fluid info p-3”&gt;
+
+&lt;div class=”row”&gt;
+
+&lt;div class=”col d-flex justify-content-between align-items-baseline flex-wrap”&gt;
+
+&lt;div class=”info-icons p-2”&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-facebook fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-instagram fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-twitter fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;a href=”#” class=”mr-2 primary-color”&gt;&lt;I class=”fab fa-yelp fa-2x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;/div&gt;
+
+&lt;h2 class=”primary-color p-2 uppercase”&gt;Food MANIA&lt;/h2&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;!—end of social icons
+
+&lt;a href=”#top-icons” id=”back-to-top” class=”p-1”&gt;&lt;I class=”fas fa-arrow-up primary-color fa-
+3x”&gt;&lt;/i&gt;&lt;/a&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+crt1.html
+
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;My Cart&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap.css&quot;&gt;
+&lt;style&gt;
+.badge-notify{
+background:red;
+position:relative;
+top: -20px;
+right: 10px;
+}
+.my-cart-icon-affix {
+position: fixed;
+
+z-index: 999;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body class=&quot;container&quot;&gt;
+
+&lt;div class=&quot;page-header&quot;&gt;
+&lt;h1&gt;Zaika
+&lt;div style=&quot;float: right; cursor: pointer;&quot;&gt;
+&lt;span class=&quot;glyphicon glyphicon-shopping-cart my-cart-icon&quot;&gt;&lt;span class=&quot;badge badge-notify
+my-cart-badge&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;non veg-thali.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+Non veg thali &lt;strong&gt; Rs. 60&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;1&quot; data-name=&quot;non veg-thali&quot; data-
+summary=&quot;summary 1&quot; data-price=&quot;260&quot; data-quantity=&quot;1&quot; data-image=&quot;spring-rolls.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+
+&lt;img src=&quot;rasmalai.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+rasmalai &lt;strong&gt; Rs. 20&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;2&quot; data-name=&quot;rasmalai&quot; data-
+summary=&quot;summary 2&quot; data-price=&quot;20&quot; data-quantity=&quot;1&quot; data-image=&quot;rasmalai.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;nan-paneer.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+paneer-nan - &lt;strong&gt;Rs. 100&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;3&quot; data-name=&quot;paneer nan&quot; data-
+summary=&quot;summary 3&quot; data-price=&quot;100&quot; data-quantity=&quot;1&quot; data-image=&quot;nan-paneer.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;idli.jpeg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+idli sambhar - &lt;strong&gt;Rs. 15/piece&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;4&quot; data-name=&quot;idli sambhar&quot; data-
+summary=&quot;summary 4&quot; data-price=&quot;15&quot; data-quantity=&quot;1&quot; data-image=&quot;idli.jpeg&quot;&gt;Add to Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;matar-paneer.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+Matar paneer - &lt;strong&gt;Rs. 90&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;5&quot; data-name=&quot;Matar paneer&quot; data-
+summary=&quot;summary 5&quot; data-price=&quot;90&quot; data-quantity=&quot;1&quot; data-image=&quot;matar-paneer.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script src=&quot;js/jquery-2.2.3.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39; src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39; src=&quot;js/jquery.mycart.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(function () {
+
+var goToCartIcon = function($addTocartBtn){
+var $cartIcon = $(&quot;.my-cart-icon&quot;);
+var $image = $(&#39;&lt;img width=&quot;30px&quot; height=&quot;30px&quot; src=&quot;&#39; + $addTocartBtn.data(&quot;image&quot;) +
+&#39;&quot;/&gt;&#39;).css({&quot;position&quot;: &quot;fixed&quot;, &quot;z-index&quot;: &quot;999&quot;});
+$addTocartBtn.prepend($image);
+var position = $cartIcon.position();
+$image.animate({
+top: position.top,
+left: position.left
+}, 500 , &quot;linear&quot;, function() {
+
+$image.remove();
+});
+}
+
+$(&#39;.my-cart-btn&#39;).myCart({
+currencySymbol: &#39;Rs. &#39;,
+classCartIcon: &#39;my-cart-icon&#39;,
+classCartBadge: &#39;my-cart-badge&#39;,
+classProductQuantity: &#39;my-product-quantity&#39;,
+classProductRemove: &#39;my-product-remove&#39;,
+classCheckoutCart: &#39;my-cart-checkout&#39;,
+affixCartIcon: true,
+showCheckoutModal: true,
+numberOfDecimals: 2,
+cartItems: [
+
+],
+clickOnAddToCart: function($addTocart){
+goToCartIcon($addTocart);
+},
+afterAddOnCart: function(products, totalPrice, totalQuantity) {
+console.log(&quot;afterAddOnCart&quot;, products, totalPrice, totalQuantity);
+},
+clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+console.log(&quot;cart icon clicked&quot;, $cartIcon, products, totalPrice, totalQuantity);
+},
+checkoutCart: function(products, totalPrice, totalQuantity) {
+var checkoutString = &quot;Total Price: &quot; + totalPrice + &quot;\nTotal Quantity: &quot; + totalQuantity;
+checkoutString += &quot;\n\n id \t name \t summary \t price \t quantity \t image path&quot;;
+
+$.each(products, function(){
+checkoutString += (&quot;\n &quot; + this.id + &quot; \t &quot; + this.name + &quot; \t &quot; + this.summary + &quot; \t &quot; + this.price + &quot;
+\t &quot; + this.quantity + &quot; \t &quot; + this.image);
+});
+alert(checkoutString)
+console.log(&quot;checking out&quot;, products, totalPrice, totalQuantity);
+},
+getDiscountPrice: function(products, totalPrice, totalQuantity) {
+console.log(&quot;calculating discount&quot;, products, totalPrice, totalQuantity);
+return totalPrice * 0.5;
+}
+});
+$(&quot;#addNewProduct&quot;).click(function(event) {
+var currentElementNo = $(&quot;.row&quot;).children().length + 1;
+$(&quot;.row&quot;).append(&#39;&lt;div class=&quot;col-md-3 text-center&quot;&gt;&#39; + currentElementNo + &#39; - &lt;strong&gt;Rs. &#39; +
+currentElementNo + &#39;&lt;/strong&gt;&lt;br&gt;&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;&#39; +
+currentElementNo + &#39;&quot; data-name=&quot;product &#39; + currentElementNo + &#39;&quot; data-summary=&quot;summary &#39; +
+currentElementNo + &#39;&quot; data-price=&quot;&#39; + currentElementNo + &#39;&quot; data-quantity=&quot;1&quot; &quot;&gt;Add to
+Cart&lt;/button&gt;&lt;/div&gt;&#39;)
+});
+});
+
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+crt2.html
+
+&lt;html&gt;
+
+&lt;head&gt;
+&lt;title&gt;My Cart&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap.css&quot;&gt;
+&lt;style&gt;
+.badge-notify{
+background:red;
+position:relative;
+top: -20px;
+right: 10px;
+}
+.my-cart-icon-affix {
+position: fixed;
+z-index: 999;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body class=&quot;container&quot;&gt;
+
+&lt;div class=&quot;page-header&quot;&gt;
+&lt;h1&gt;Food Hub
+&lt;div style=&quot;float: right; cursor: pointer;&quot;&gt;
+&lt;span class=&quot;glyphicon glyphicon-shopping-cart my-cart-icon&quot;&gt;&lt;span class=&quot;badge badge-notify
+my-cart-badge&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;thali.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+pure veg thali &lt;strong&gt; Rs. 100&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;1&quot; data-name=&quot;pure veg-thali&quot; data-
+summary=&quot;summary 1&quot; data-price=&quot;100&quot; data-quantity=&quot;1&quot; data-image=&quot;thali.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;dosa.png&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+Dosa &lt;strong&gt; Rs. 100&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;2&quot; data-name=&quot;Dosa&quot; data-
+summary=&quot;summary 2&quot; data-price=&quot;100&quot; data-quantity=&quot;1&quot; data-image=&quot;dosa.png&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;imarti.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+imarti &lt;strong&gt; Rs. 15/piece&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;3&quot; data-name=&quot;imarti&quot; data-
+summary=&quot;summary 3&quot; data-price=&quot;15&quot; data-quantity=&quot;1&quot; data-image=&quot;imarti.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;tikka.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+chicken tikka - &lt;strong&gt;Rs. 150&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;4&quot; data-name=&quot;chicken tikka&quot; data-
+summary=&quot;summary 4&quot; data-price=&quot;150&quot; data-quantity=&quot;1&quot; data-image=&quot;tikka.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;cupcake.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+cupcake - &lt;strong&gt;Rs. 20&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;5&quot; data-name=&quot;cupcake&quot; data-
+summary=&quot;summary 5&quot; data-price=&quot;20&quot; data-quantity=&quot;1&quot; data-image=&quot;cupcake.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script src=&quot;js/jquery-2.2.3.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39; src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39; src=&quot;js/jquery.mycart.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(function () {
+
+var goToCartIcon = function($addTocartBtn){
+var $cartIcon = $(&quot;.my-cart-icon&quot;);
+var $image = $(&#39;&lt;img width=&quot;30px&quot; height=&quot;30px&quot; src=&quot;&#39; + $addTocartBtn.data(&quot;image&quot;) +
+&#39;&quot;/&gt;&#39;).css({&quot;position&quot;: &quot;fixed&quot;, &quot;z-index&quot;: &quot;999&quot;});
+$addTocartBtn.prepend($image);
+var position = $cartIcon.position();
+$image.animate({
+top: position.top,
+left: position.left
+}, 500 , &quot;linear&quot;, function() {
+$image.remove();
+});
+}
+
+$(&#39;.my-cart-btn&#39;).myCart({
+currencySymbol: &#39;Rs. &#39;,
+classCartIcon: &#39;my-cart-icon&#39;,
+classCartBadge: &#39;my-cart-badge&#39;,
+classProductQuantity: &#39;my-product-quantity&#39;,
+classProductRemove: &#39;my-product-remove&#39;,
+classCheckoutCart: &#39;my-cart-checkout&#39;,
+affixCartIcon: true,
+showCheckoutModal: true,
+numberOfDecimals: 2,
+cartItems: [
+
+],
+clickOnAddToCart: function($addTocart){
+
+goToCartIcon($addTocart);
+},
+afterAddOnCart: function(products, totalPrice, totalQuantity) {
+console.log(&quot;afterAddOnCart&quot;, products, totalPrice, totalQuantity);
+},
+clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+console.log(&quot;cart icon clicked&quot;, $cartIcon, products, totalPrice, totalQuantity);
+},
+checkoutCart: function(products, totalPrice, totalQuantity) {
+var checkoutString = &quot;Total Price: &quot; + totalPrice + &quot;\nTotal Quantity: &quot; + totalQuantity;
+checkoutString += &quot;\n\n id \t name \t summary \t price \t quantity \t image path&quot;;
+$.each(products, function(){
+checkoutString += (&quot;\n &quot; + this.id + &quot; \t &quot; + this.name + &quot; \t &quot; + this.summary + &quot; \t &quot; + this.price + &quot;
+\t &quot; + this.quantity + &quot; \t &quot; + this.image);
+});
+alert(checkoutString)
+console.log(&quot;checking out&quot;, products, totalPrice, totalQuantity);
+},
+getDiscountPrice: function(products, totalPrice, totalQuantity) {
+console.log(&quot;calculating discount&quot;, products, totalPrice, totalQuantity);
+return totalPrice * 0.5;
+}
+});
+$(&quot;#addNewProduct&quot;).click(function(event) {
+var currentElementNo = $(&quot;.row&quot;).children().length + 1;
+$(&quot;.row&quot;).append(&#39;&lt;div class=&quot;col-md-3 text-center&quot;&gt;&#39; + currentElementNo + &#39; - &lt;strong&gt;Rs. &#39; +
+currentElementNo + &#39;&lt;/strong&gt;&lt;br&gt;&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;&#39; +
+currentElementNo + &#39;&quot; data-name=&quot;product &#39; + currentElementNo + &#39;&quot; data-summary=&quot;summary &#39; +
+currentElementNo + &#39;&quot; data-price=&quot;&#39; + currentElementNo + &#39;&quot; data-quantity=&quot;1&quot; &quot;&gt;Add to
+Cart&lt;/button&gt;&lt;/div&gt;&#39;)
+
+});
+});
+
+&lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+crt3.html
+
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;My Cart&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap.css&quot;&gt;
+&lt;style&gt;
+.badge-notify{
+background:red;
+position:relative;
+top: -20px;
+right: 10px;
+}
+.my-cart-icon-affix {
+position: fixed;
+z-index: 999;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body class=&quot;container&quot;&gt;
+
+&lt;div class=&quot;page-header&quot;&gt;
+&lt;h1&gt;snack point
+&lt;div style=&quot;float: right; cursor: pointer;&quot;&gt;
+&lt;span class=&quot;glyphicon glyphicon-shopping-cart my-cart-icon&quot;&gt;&lt;span class=&quot;badge badge-notify
+my-cart-badge&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;spring-rolls.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+spring rolls &lt;strong&gt; Rs. 60&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;1&quot; data-name=&quot;spring rolls&quot; data-
+summary=&quot;summary 1&quot; data-price=&quot;60&quot; data-quantity=&quot;1&quot; data-image=&quot;spring-rolls.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;burger.gif&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+Burger &lt;strong&gt; Rs. 80&lt;/strong&gt;
+&lt;br&gt;
+
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;2&quot; data-name=&quot;Burger&quot; data-
+summary=&quot;summary 2&quot; data-price=&quot;80&quot; data-quantity=&quot;1&quot; data-image=&quot;burger.gif&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;chowmin.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+chowmin - &lt;strong&gt;Rs. 70&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;3&quot; data-name=&quot;chowmin&quot; data-
+summary=&quot;summary 3&quot; data-price=&quot;70&quot; data-quantity=&quot;1&quot; data-image=&quot;chowmin.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;mushroom gravy.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+mushroom gravy - &lt;strong&gt;Rs. 130&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;4&quot; data-name=&quot;mushroom gravy&quot; data-
+summary=&quot;summary 4&quot; data-price=&quot;130&quot; data-quantity=&quot;1&quot; data-image=&quot;mushroom gravy.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;mmos.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+
+Momos - &lt;strong&gt;Rs. 50&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;5&quot; data-name=&quot;Momos&quot; data-
+summary=&quot;summary 5&quot; data-price=&quot;50&quot; data-quantity=&quot;1&quot; data-image=&quot;mmos.png&quot;&gt;Add to
+Cart&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script src=&quot;js/jquery-2.2.3.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39; src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39; src=&quot;js/jquery.mycart.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(function () {
+
+var goToCartIcon = function($addTocartBtn){
+var $cartIcon = $(&quot;.my-cart-icon&quot;);
+var $image = $(&#39;&lt;img width=&quot;30px&quot; height=&quot;30px&quot; src=&quot;&#39; + $addTocartBtn.data(&quot;image&quot;) +
+&#39;&quot;/&gt;&#39;).css({&quot;position&quot;: &quot;fixed&quot;, &quot;z-index&quot;: &quot;999&quot;});
+$addTocartBtn.prepend($image);
+var position = $cartIcon.position();
+$image.animate({
+top: position.top,
+left: position.left
+}, 500 , &quot;linear&quot;, function() {
+$image.remove();
+});
+}
+
+$(&#39;.my-cart-btn&#39;).myCart({
+currencySymbol: &#39;Rs. &#39;,
+classCartIcon: &#39;my-cart-icon&#39;,
+classCartBadge: &#39;my-cart-badge&#39;,
+classProductQuantity: &#39;my-product-quantity&#39;,
+classProductRemove: &#39;my-product-remove&#39;,
+classCheckoutCart: &#39;my-cart-checkout&#39;,
+affixCartIcon: true,
+showCheckoutModal: true,
+numberOfDecimals: 2,
+cartItems: [
+
+],
+clickOnAddToCart: function($addTocart){
+goToCartIcon($addTocart);
+},
+afterAddOnCart: function(products, totalPrice, totalQuantity) {
+console.log(&quot;afterAddOnCart&quot;, products, totalPrice, totalQuantity);
+},
+clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+console.log(&quot;cart icon clicked&quot;, $cartIcon, products, totalPrice, totalQuantity);
+},
+checkoutCart: function(products, totalPrice, totalQuantity) {
+var checkoutString = &quot;Total Price: &quot; + totalPrice + &quot;\nTotal Quantity: &quot; + totalQuantity;
+checkoutString += &quot;\n\n id \t name \t summary \t price \t quantity \t image path&quot;;
+$.each(products, function(){
+checkoutString += (&quot;\n &quot; + this.id + &quot; \t &quot; + this.name + &quot; \t &quot; + this.summary + &quot; \t &quot; + this.price + &quot;
+\t &quot; + this.quantity + &quot; \t &quot; + this.image);
+});
+
+alert(checkoutString)
+console.log(&quot;checking out&quot;, products, totalPrice, totalQuantity);
+},
+getDiscountPrice: function(products, totalPrice, totalQuantity) {
+console.log(&quot;calculating discount&quot;, products, totalPrice, totalQuantity);
+return totalPrice * 0.5;
+}
+});
+$(&quot;#addNewProduct&quot;).click(function(event) {
+var currentElementNo = $(&quot;.row&quot;).children().length + 1;
+$(&quot;.row&quot;).append(&#39;&lt;div class=&quot;col-md-3 text-center&quot;&gt;&#39; + currentElementNo + &#39; - &lt;strong&gt;Rs. &#39; +
+currentElementNo + &#39;&lt;/strong&gt;&lt;br&gt;&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;&#39; +
+currentElementNo + &#39;&quot; data-name=&quot;product &#39; + currentElementNo + &#39;&quot; data-summary=&quot;summary &#39; +
+currentElementNo + &#39;&quot; data-price=&quot;&#39; + currentElementNo + &#39;&quot; data-quantity=&quot;1&quot; &quot;&gt;Add to
+Cart&lt;/button&gt;&lt;/div&gt;&#39;)
+});
+});
+
+&lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+
+crt4.html
+
+&lt;html&gt;
+&lt;head&gt;
+&lt;title&gt;My Cart&lt;/title&gt;
+&lt;link rel=&quot;stylesheet&quot; href=&quot;css/bootstrap.css&quot;&gt;
+&lt;style&gt;
+.badge-notify{
+
+background:red;
+position:relative;
+top: -20px;
+right: 10px;
+}
+.my-cart-icon-affix {
+position: fixed;
+z-index: 999;
+}
+&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body class=&quot;container&quot;&gt;
+
+&lt;div class=&quot;page-header&quot;&gt;
+&lt;h1&gt;warm delight
+&lt;div style=&quot;float: right; cursor: pointer;&quot;&gt;
+&lt;span class=&quot;glyphicon glyphicon-shopping-cart my-cart-icon&quot;&gt;&lt;span class=&quot;badge badge-notify
+my-cart-badge&quot;&gt;&lt;/span&gt;&lt;/span&gt;
+&lt;/div&gt;
+&lt;/h1&gt;
+&lt;/div&gt;
+
+&lt;div class=&quot;row&quot;&gt;
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;chicken biryani.png&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+chicken biryani &lt;strong&gt; Rs. 180&lt;/strong&gt;
+
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;1&quot; data-name=&quot;chicken biryani&quot; data-
+summary=&quot;summary 1&quot; data-price=&quot;180&quot; data-quantity=&quot;1&quot; data-image=&quot;chicken biryani.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;pbm.jpeg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+paneer butter masala &lt;strong&gt; Rs. 100&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;2&quot; data-name=&quot;paneer butter masala&quot; data-
+summary=&quot;summary 2&quot; data-price=&quot;100&quot; data-quantity=&quot;1&quot; data-image=&quot;pbm.jpeg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;Chicken-Masala.jpeg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+Chicken-Masala &lt;strong&gt; Rs. 120&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;3&quot; data-name=&quot;chicken masala&quot; data-
+summary=&quot;summary 3&quot; data-price=&quot;120&quot; data-quantity=&quot;1&quot; data-image=&quot;Chicken-Masala.jpeg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;veg-pulao.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+veg-pulao - &lt;strong&gt;Rs. 180&lt;/strong&gt;
+
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;4&quot; data-name=&quot;veg pulao&quot; data-
+summary=&quot;summary 4&quot; data-price=&quot;180&quot; data-quantity=&quot;1&quot; data-image=&quot;veg-pulao.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=&quot;col-md-3 text-center&quot;&gt;
+&lt;img src=&quot;chicken chilli.jpg&quot; width=&quot;150px&quot; height=&quot;150px&quot;&gt;
+&lt;br&gt;
+chicken chilli - &lt;strong&gt;Rs. 120&lt;/strong&gt;
+&lt;br&gt;
+&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;5&quot; data-name=&quot;chicken chilli&quot; data-
+summary=&quot;summary 5&quot; data-price=&quot;120&quot; data-quantity=&quot;1&quot; data-image=&quot;chicken chilli.jpg&quot;&gt;Add to
+Cart&lt;/button&gt;
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script src=&quot;js/jquery-2.2.3.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39; src=&quot;js/bootstrap.min.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&#39;text/javascript&#39; src=&quot;js/jquery.mycart.js&quot;&gt;&lt;/script&gt;
+&lt;script type=&quot;text/javascript&quot;&gt;
+$(function () {
+
+var goToCartIcon = function($addTocartBtn){
+var $cartIcon = $(&quot;.my-cart-icon&quot;);
+var $image = $(&#39;&lt;img width=&quot;30px&quot; height=&quot;30px&quot; src=&quot;&#39; + $addTocartBtn.data(&quot;image&quot;) +
+&#39;&quot;/&gt;&#39;).css({&quot;position&quot;: &quot;fixed&quot;, &quot;z-index&quot;: &quot;999&quot;});
+
+$addTocartBtn.prepend($image);
+var position = $cartIcon.position();
+$image.animate({
+top: position.top,
+left: position.left
+}, 500 , &quot;linear&quot;, function() {
+$image.remove();
+});
+}
+
+$(&#39;.my-cart-btn&#39;).myCart({
+currencySymbol: &#39;Rs. &#39;,
+classCartIcon: &#39;my-cart-icon&#39;,
+classCartBadge: &#39;my-cart-badge&#39;,
+classProductQuantity: &#39;my-product-quantity&#39;,
+classProductRemove: &#39;my-product-remove&#39;,
+classCheckoutCart: &#39;my-cart-checkout&#39;,
+affixCartIcon: true,
+showCheckoutModal: true,
+numberOfDecimals: 2,
+cartItems: [
+
+],
+clickOnAddToCart: function($addTocart){
+goToCartIcon($addTocart);
+},
+afterAddOnCart: function(products, totalPrice, totalQuantity) {
+console.log(&quot;afterAddOnCart&quot;, products, totalPrice, totalQuantity);
+},
+
+clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+console.log(&quot;cart icon clicked&quot;, $cartIcon, products, totalPrice, totalQuantity);
+},
+checkoutCart: function(products, totalPrice, totalQuantity) {
+var checkoutString = &quot;Total Price: &quot; + totalPrice + &quot;\nTotal Quantity: &quot; + totalQuantity;
+checkoutString += &quot;\n\n id \t name \t summary \t price \t quantity \t image path&quot;;
+$.each(products, function(){
+checkoutString += (&quot;\n &quot; + this.id + &quot; \t &quot; + this.name + &quot; \t &quot; + this.summary + &quot; \t &quot; + this.price + &quot;
+\t &quot; + this.quantity + &quot; \t &quot; + this.image);
+});
+alert(checkoutString)
+console.log(&quot;checking out&quot;, products, totalPrice, totalQuantity);
+},
+getDiscountPrice: function(products, totalPrice, totalQuantity) {
+console.log(&quot;calculating discount&quot;, products, totalPrice, totalQuantity);
+return totalPrice * 0.5;
+}
+});
+$(&quot;#addNewProduct&quot;).click(function(event) {
+var currentElementNo = $(&quot;.row&quot;).children().length + 1;
+$(&quot;.row&quot;).append(&#39;&lt;div class=&quot;col-md-3 text-center&quot;&gt;&#39; + currentElementNo + &#39; - &lt;strong&gt;Rs. &#39; +
+currentElementNo + &#39;&lt;/strong&gt;&lt;br&gt;&lt;button class=&quot;btn btn-danger my-cart-btn&quot; data-id=&quot;&#39; +
+currentElementNo + &#39;&quot; data-name=&quot;product &#39; + currentElementNo + &#39;&quot; data-summary=&quot;summary &#39; +
+currentElementNo + &#39;&quot; data-price=&quot;&#39; + currentElementNo + &#39;&quot; data-quantity=&quot;1&quot; &quot;&gt;Add to
+Cart&lt;/button&gt;&lt;/div&gt;&#39;)
+});
+});
+
+&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;
+Crt5. Html
+
+&lt;html&gt;
+
+&lt;head&gt;
+
+&lt;title&gt;My Cart&lt;/title&gt;
+
+&lt;link rel=”stylesheet” href=”css/bootstrap.css”&gt;
+
+&lt;style&gt;
+
+.badge-notify{
+
+Background:red;
+
+Position:relative;
+
+Top: -20px;
+
+Right: 10px;
+
+}
+
+.my-cart-icon-affix {
+
+Position: fixed;
+
+z-index: 999;
+
+}
+
+&lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body class=”container”&gt;
+
+&lt;div class=”page-header”&gt;
+
+&lt;h1&gt;Coffee &amp; Crisp
+
+&lt;div style=”float: right; cursor: pointer;”&gt;
+
+&lt;span class=”glyphicon glyphicon-shopping-cart my-cart-icon”&gt;&lt;span class=”badge badge-notify
+my-cart-badge”&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;/h1&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”row”&gt;
+
+&lt;div class=”col-md-3 text-center”&gt;
+
+&lt;img src=”kk.jpg” width=”150px” height=”150px”&gt;
+
+&lt;br&gt;
+
+Kaju katli &lt;strong&gt; Rs. 15/piece&lt;/strong&gt;
+
+&lt;br&gt;
+
+&lt;button class=”btn btn-danger my-cart-btn” data-id=”1” data-name=”kaju katli” data-
+summary=”summary 1” data-price=”15” data-quantity=”1” data-image=”kk.jpg”&gt;Add to Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-md-3 text-center”&gt;
+
+&lt;img src=”pp.jpg” width=”150px” height=”150px”&gt;
+
+&lt;br&gt;
+
+Palak paneer &lt;strong&gt; Rs. 90&lt;/strong&gt;
+
+&lt;br&gt;
+
+&lt;button class=”btn btn-danger my-cart-btn” data-id=”2” data-name=”palak paneer” data-
+summary=”summary 2” data-price=”90” data-quantity=”1” data-image=”pp.jpg”&gt;Add to Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-md-3 text-center”&gt;
+
+&lt;img src=”rasgulla.jpg” width=”150px” height=”150px”&gt;
+
+&lt;br&gt;
+
+Rasgulla &lt;strong&gt; Rs. 10/piece&lt;/strong&gt;
+
+&lt;br&gt;
+
+&lt;button class=”btn btn-danger my-cart-btn” data-id=”3” data-name=”Rasgulla” data-
+summary=”summary 3” data-price=”10” data-quantity=”1” data-image=”rasgulla.jpg”&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-md-3 text-center”&gt;
+
+&lt;img src=”Dhokla.jpg” width=”150px” height=”150px”&gt;
+
+&lt;br&gt;
+
+Dhokla - &lt;strong&gt;Rs. 12/piece&lt;/strong&gt;
+
+&lt;br&gt;
+
+&lt;button class=”btn btn-danger my-cart-btn” data-id=”4” data-name=”Dhokla” data-
+summary=”summary 4” data-price=”12” data-quantity=”1” data-image=”Dhokla.jpg”&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-md-3 text-center”&gt;
+
+&lt;img src=”gulab-jamun.jpg” width=”150px” height=”150px”&gt;
+
+&lt;br&gt;
+
+Gulab jamun - &lt;strong&gt;Rs. 10&lt;/strong&gt;
+
+&lt;br&gt;
+
+&lt;button class=”btn btn-danger my-cart-btn” data-id=”5” data-name=”Gulab jamun” data-
+summary=”summary 5” data-price=”10” data-quantity=”1” data-image=”gulab-jamun.jpg”&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script src=”js/jquery-2.2.3.min.js”&gt;&lt;/script&gt;
+
+&lt;script type=’text/javascript’ src=”js/bootstrap.min.js”&gt;&lt;/script&gt;
+
+&lt;script type=’text/javascript’ src=”js/jquery.mycart.js”&gt;&lt;/script&gt;
+
+&lt;script type=”text/javascript”&gt;
+
+$(function () {
+
+Var goToCartIcon = function($addTocartBtn){
+
+Var $cartIcon = $(“.my-cart-icon”);
+
+Var $image = $(‘&lt;img width=”30px” height=”30px” src=”’ + $addTocartBtn.data(“image”) +
+‘”/&gt;’).css({“position”: “fixed”, “z-index”: “999”});
+
+$addTocartBtn.prepend($image);
+
+Var position = $cartIcon.position();
+
+$image.animate({
+
+Top: position.top,
+
+Left: position.left
+
+}, 500 , “linear”, function() {
+
+$image.remove();
+
+});
+
+}
+
+$(‘.my-cart-btn’).myCart({
+
+currencySymbol: ‘Rs. ‘,
+
+classCartIcon: ‘my-cart-icon’,
+
+classCartBadge: ‘my-cart-badge’,
+
+classProductQuantity: ‘my-product-quantity’,
+
+classProductRemove: ‘my-product-remove’,
+
+classCheckoutCart: ‘my-cart-checkout’,
+
+affixCartIcon: true,
+
+showCheckoutModal: true,
+
+numberOfDecimals: 2,
+
+cartItems: [
+
+],
+
+clickOnAddToCart: function($addTocart){
+
+goToCartIcon($addTocart);
+
+},
+
+afterAddOnCart: function(products, totalPrice, totalQuantity) {
+
+console.log(“afterAddOnCart”, products, totalPrice, totalQuantity);
+
+},
+
+clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+
+console.log(“cart icon clicked”, $cartIcon, products, totalPrice, totalQuantity);
+
+},
+
+checkoutCart: function(products, totalPrice, totalQuantity) {
+
+var checkoutString = “Total Price: “ + totalPrice + “\nTotal Quantity: “ + totalQuantity;
+
+checkoutString += “\n\n id \t name \t summary \t price \t quantity \t image path”;
+
+$.each(products, function(){
+
+checkoutString += (“\n “ + this.id + “ \t “ + this.name + “ \t “ + this.summary + “ \t “ + this.price + “
+\t “ + this.quantity + “ \t “ + this.image);
+
+});
+
+Alert(checkoutString)
+
+Console.log(“checking out”, products, totalPrice, totalQuantity);
+
+},
+
+getDiscountPrice: function(products, totalPrice, totalQuantity) {
+
+console.log(“calculating discount”, products, totalPrice, totalQuantity);
+
+return totalPrice * 0.5;
+
+}
+
+});
+
+$(“#addNewProduct”).click(function(event) {
+
+Var currentElementNo = $(“.row”).children().length + 1;
+
+$(“.row”).append(‘&lt;div class=”col-md-3 text-center”&gt;’ + currentElementNo + ‘ - &lt;strong&gt;Rs. ‘ +
+currentElementNo + ‘&lt;/strong&gt;&lt;br&gt;&lt;button class=”btn btn-danger my-cart-btn” data-id=”’ +
+currentElementNo + ‘” data-name=”product ‘ + currentElementNo + ‘” data-summary=”summary ‘ +
+currentElementNo + ‘” data-price=”’ + currentElementNo + ‘” data-quantity=”1” “&gt;Add to
+Cart&lt;/button&gt;&lt;/div&gt;’)
+
+});
+
+});
+
+&lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+Crt6.html
+
+&lt;html&gt;
+
+&lt;head&gt;
+
+&lt;title&gt;My Cart&lt;/title&gt;
+
+&lt;link rel=”stylesheet” href=”css/bootstrap.css”&gt;
+
+&lt;style&gt;
+
+.badge-notify{
+
+Background:red;
+
+Position:relative;
+
+Top: -20px;
+
+Right: 10px;
+
+}
+
+.my-cart-icon-affix {
+
+Position: fixed;
+
+z-index: 999;
+
+}
+
+&lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body class=”container”&gt;
+
+&lt;div class=”page-header”&gt;
+
+&lt;h1&gt;Art With Food
+
+&lt;div style=”float: right; cursor: pointer;”&gt;
+
+&lt;span class=”glyphicon glyphicon-shopping-cart my-cart-icon”&gt;&lt;span class=”badge badge-notify
+my-cart-badge”&gt;&lt;/span&gt;&lt;/span&gt;
+
+&lt;/div&gt;
+
+&lt;/h1&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”row”&gt;
+
+&lt;div class=”col-md-3 text-center”&gt;
+
+&lt;img src=”egg-biryani.jpeg” width=”150px” height=”150px”&gt;
+
+&lt;br&gt;
+
+Egg biryani &lt;strong&gt; Rs. 150&lt;/strong&gt;
+
+&lt;br&gt;
+
+&lt;button class=”btn btn-danger my-cart-btn” data-id=”1” data-name=”egg biryani” data-
+summary=”summary 1” data-price=”150” data-quantity=”1” data-image=”egg-biryani.jpeg”&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-md-3 text-center”&gt;
+
+&lt;img src=”gt.jpg” width=”150px” height=”150px”&gt;
+
+&lt;br&gt;
+
+Thali &lt;strong&gt; Rs. 100&lt;/strong&gt;
+
+&lt;br&gt;
+
+&lt;button class=”btn btn-danger my-cart-btn” data-id=”2” data-name=”thali” data-
+summary=”summary 2” data-price=”100” data-quantity=”1” data-image=”gt.jpg”&gt;Add to Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-md-3 text-center”&gt;
+
+&lt;img src=”mb.jpg” width=”150px” height=”150px”&gt;
+
+&lt;br&gt;
+
+Mysore bonda &lt;strong&gt; Rs. 30&lt;/strong&gt;
+
+&lt;br&gt;
+
+&lt;button class=”btn btn-danger my-cart-btn” data-id=”3” data-name=”mysore bonda” data-
+summary=”summary 3” data-price=”120” data-quantity=”1” data-image=”mb.jpg”&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-md-3 text-center”&gt;
+
+&lt;img src=”sandwich.jpg” width=”150px” height=”150px”&gt;
+
+&lt;br&gt;
+
+Sandwich - &lt;strong&gt;Rs. 80&lt;/strong&gt;
+
+&lt;br&gt;
+
+&lt;button class=”btn btn-danger my-cart-btn” data-id=”4” data-name=”sandwich” data-
+summary=”summary 4” data-price=”80” data-quantity=”1” data-image=”sandwich.jpg”&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;div class=”col-md-3 text-center”&gt;
+
+&lt;img src=”barfi.jpg” width=”150px” height=”150px”&gt;
+
+&lt;br&gt;
+
+Barfi - &lt;strong&gt;Rs. 10/piece&lt;/strong&gt;
+
+&lt;br&gt;
+
+&lt;button class=”btn btn-danger my-cart-btn” data-id=”5” data-name=”barfi” data-
+summary=”summary 5” data-price=”10” data-quantity=”1” data-image=”barfi.jpg”&gt;Add to
+Cart&lt;/button&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;script src=”js/jquery-2.2.3.min.js”&gt;&lt;/script&gt;
+
+&lt;script type=’text/javascript’ src=”js/bootstrap.min.js”&gt;&lt;/script&gt;
+
+&lt;script type=’text/javascript’ src=”js/jquery.mycart.js”&gt;&lt;/script&gt;
+
+&lt;script type=”text/javascript”&gt;
+
+$(function () {
+
+Var goToCartIcon = function($addTocartBtn){
+
+Var $cartIcon = $(“.my-cart-icon”);
+
+Var $image = $(‘&lt;img width=”30px” height=”30px” src=”’ + $addTocartBtn.data(“image”) +
+‘”/&gt;’).css({“position”: “fixed”, “z-index”: “999”});
+
+$addTocartBtn.prepend($image);
+
+Var position = $cartIcon.position();
+
+$image.animate({
+
+Top: position.top,
+
+Left: position.left
+
+}, 500 , “linear”, function() {
+
+$image.remove();
+
+});
+
+}
+
+$(‘.my-cart-btn’).myCart({
+
+currencySymbol: ‘Rs. ‘,
+
+classCartIcon: ‘my-cart-icon’,
+
+classCartBadge: ‘my-cart-badge’,
+
+classProductQuantity: ‘my-product-quantity’,
+
+classProductRemove: ‘my-product-remove’,
+
+classCheckoutCart: ‘my-cart-checkout’,
+
+affixCartIcon: true,
+
+showCheckoutModal: true,
+
+numberOfDecimals: 2,
+
+cartItems: [
+
+],
+
+clickOnAddToCart: function($addTocart){
+
+goToCartIcon($addTocart);
+
+},
+
+afterAddOnCart: function(products, totalPrice, totalQuantity) {
+
+console.log(“afterAddOnCart”, products, totalPrice, totalQuantity);
+
+},
+
+clickOnCartIcon: function($cartIcon, products, totalPrice, totalQuantity) {
+
+console.log(“cart icon clicked”, $cartIcon, products, totalPrice, totalQuantity);
+
+},
+
+checkoutCart: function(products, totalPrice, totalQuantity) {
+
+var checkoutString = “Total Price: “ + totalPrice + “\nTotal Quantity: “ + totalQuantity;
+
+checkoutString += “\n\n id \t name \t summary \t price \t quantity \t image path”;
+
+$.each(products, function(){
+
+checkoutString += (“\n “ + this.id + “ \t “ + this.name + “ \t “ + this.summary + “ \t “ + this.price + “
+\t “ + this.quantity + “ \t “ + this.image);
+
+});
+
+Alert(checkoutString)
+
+Console.log(“checking out”, products, totalPrice, totalQuantity);
+
+},
+
+getDiscountPrice: function(products, totalPrice, totalQuantity) {
+
+console.log(“calculating discount”, products, totalPrice, totalQuantity);
+
+return totalPrice * 0.5;
+
+}
+
+});
+
+$(“#addNewProduct”).click(function(event) {
+
+Var currentElementNo = $(“.row”).children().length + 1;
+
+$(“.row”).append(‘&lt;div class=”col-md-3 text-center”&gt;’ + currentElementNo + ‘ - &lt;strong&gt;Rs. ‘ +
+currentElementNo + ‘&lt;/strong&gt;&lt;br&gt;&lt;button class=”btn btn-danger my-cart-btn” data-id=”’ +
+currentElementNo + ‘” data-name=”product ‘ + currentElementNo + ‘” data-summary=”summary ‘ +
+
+currentElementNo + ‘” data-price=”’ + currentElementNo + ‘” data-quantity=”1” “&gt;Add to
+Cart&lt;/button&gt;&lt;/div&gt;’)
+
+});
+
+});
+
+&lt;/script&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+Jquery.mycart.min.js
+
+(function ($) {
+
+“use strict”;
+
+Var OptionManager = (function () {
+
+Var objToReturn = {};
+
+Var _options = null;
+
+Var DEFAULT_OPTIONS = {
+
+currencySymbol: ‘$’,
+
+classCartIcon: ‘my-cart-icon’,
+
+classCartBadge: ‘my-cart-badge’,
+
+classProductQuantity: ‘my-product-quantity’,
+
+classProductRemove: ‘my-product-remove’,
+
+classCheckoutCart: ‘my-cart-checkout’,
+
+affixCartIcon: true,
+
+showCheckoutModal: true,
+
+numberOfDecimals: 2,
+
+cartItems: null,
+
+clickOnAddToCart: function ($addTocart) {},
+
+afterAddOnCart: function (products, totalPrice, totalQuantity) {},
+
+clickOnCartIcon: function ($cartIcon, products, totalPrice, totalQuantity) {},
+
+checkoutCart: function (products, totalPrice, totalQuantity) {
+
+return false;
+
+},
+
+getDiscountPrice: function (products, totalPrice, totalQuantity) {
+
+return null;
+
+}
+
+};
+
+Var loadOptions = function (customOptions) {
+
+_options = $.extend({}, DEFAULT_OPTIONS);
+
+If (typeof customOptions === ‘object’) {
+
+$.extend(_options, customOptions);
+
+}
+
+};
+
+Var getOptions = function () {
+
+Return _options;
+
+};
+
+objToReturn.loadOptions = loadOptions;
+
+objToReturn.getOptions = getOptions;
+
+return objToReturn;
+
+}());
+
+Var MathHelper = (function () {
+
+Var objToReturn = {};
+
+Var getRoundedNumber = function (number) {
+
+If (isNaN(number)) {
+
+Throw new Error(‘Parameter is not a Number’);
+
+}
+
+Number = number * 1;
+
+Var options = OptionManager.getOptions();
+
+Return number.toFixed(options.numberOfDecimals);
+
+};
+
+objToReturn.getRoundedNumber = getRoundedNumber;
+
+return objToReturn;
+
+}());
+
+Var ProductManager = (function () {
+
+Var objToReturn = {};
+
+/*
+
+PRIVATE
+
+*/
+
+Const STORAGE_NAME = “__mycart”;
+
+localStorage[STORAGE_NAME] = localStorage[STORAGE_NAME] ? localStorage[STORAGE_NAME] : “”;
+
+var getIndexOfProduct = function (id) {
+
+var productIndex = -1;
+
+var products = getAllProducts();
+
+$.each(products, function (index, value) {
+
+If (value.id == id) {
+
+productIndex = index;
+
+return;
+
+}
+
+});
+
+Return productIndex;
+
+};
+
+Var setAllProducts = function (products) {
+
+localStorage[STORAGE_NAME] = JSON.stringify(products);
+
+};
+
+Var addProduct = function (id, name, summary, price, quantity, image) {
+
+Var products = getAllProducts();
+
+Products.push({
+
+Id: id,
+
+Name: name,
+
+Summary: summary,
+
+Price: price,
+
+Quantity: quantity,
+
+Image: image
+
+});
+
+setAllProducts(products);
+
+};
+
+/*
+
+PUBLIC
+
+*/
+
+Var getAllProducts = function () {
+
+Try {
+
+Var products = JSON.parse(localStorage[STORAGE_NAME]);
+
+Return products;
+
+} catch € {
+
+Return [];
+
+}
+
+};
+
+Var updatePoduct = function (id, quantity, increaseQuantity) {
+
+Var productIndex = getIndexOfProduct(id);
+
+If (productIndex &lt; 0) {
+
+Return false;
+
+}
+
+Var products = getAllProducts();
+
+If(increaseQuantity) {
+
+Products[productIndex].quantity = products[productIndex].quantity * 1 + (typeof quantity ===
+“undefined” ? 1 : quantity * 1);
+
+} else {
+
+Products[productIndex].quantity = typeof quantity === “undefined” ?
+products[productIndex].quantity * 1 + 1 : quantity * 1;
+
+}
+
+setAllProducts(products);
+
+return true;
+
+};
+
+Var setProduct = function (id, name, summary, price, quantity, image) {
+
+If (typeof id === “undefined”) {
+
+Console.error(“id required”);
+
+Return false;
+
+}
+
+If (typeof name === “undefined”) {
+
+Console.error(“name required”);
+
+Return false;
+
+}
+
+If (typeof image === “undefined”) {
+
+Console.error(“image required”);
+
+Return false;
+
+}
+
+If (!$.isNumeric(price)) {
+
+Console.error(“price is not a number”);
+
+Return false;
+
+}
+
+If (!$.isNumeric(quantity)) {
+
+Console.error(“quantity is not a number”);
+
+Return false;
+
+}
+
+Summary = typeof summary === “undefined” ? “” : summary;
+
+If (!updatePoduct(id, quantity, true)) {
+
+addProduct(id, name, summary, price, quantity, image);
+
+}
+
+};
+
+Var clearProduct = function () {
+
+setAllProducts([]);
+
+};
+
+Var removeProduct = function (id) {
+
+Var products = getAllProducts();
+
+Products = $.grep(products, function (value, index) {
+
+Return value.id != id;
+
+});
+
+setAllProducts(products);
+
+};
+
+Var getTotalQuantity = function () {
+
+Var total = 0;
+
+Var products = getAllProducts();
+
+$.each(products, function (index, value) {
+
+Total += value.quantity * 1;
+
+});
+
+Return total;
+
+};
+
+Var getTotalPrice = function () {
+
+Var products = getAllProducts();
+
+Var total = 0;
+
+$.each(products, function (index, value) {
+
+Total += value.quantity * value.price;
+
+Total = MathHelper.getRoundedNumber(total) * 1;
+
+});
+
+Return total;
+
+};
+
+objToReturn.getAllProducts = getAllProducts;
+
+objToReturn.updatePoduct = updatePoduct;
+
+objToReturn.setProduct = setProduct;
+
+objToReturn.clearProduct = clearProduct;
+
+objToReturn.removeProduct = removeProduct;
+
+objToReturn.getTotalQuantity = getTotalQuantity;
+
+objToReturn.getTotalPrice = getTotalPrice;
+
+return objToReturn;
+
+}());
+
+Var loadMyCartEvent = function (targetSelector) {
+
+Var options = OptionManager.getOptions();
+
+Var $cartIcon = $(“.” + options.classCartIcon);
+
+Var $cartBadge = $(“.” + options.classCartBadge);
+
+Var classProductQuantity = options.classProductQuantity;
+
+Var classProductRemove = options.classProductRemove;
+
+Var classCheckoutCart = options.classCheckoutCart;
+
+Var idCartModal = ‘my-cart-modal’;
+
+Var idCartTable = ‘my-cart-table’;
+
+Var idGrandTotal = ‘my-cart-grand-total’;
+
+Var idEmptyCartMessage = ‘my-cart-empty-message’;
+
+Var idDiscountPrice = ‘my-cart-discount-price’;
+
+Var classProductTotal = ‘my-product-total’;
+
+Var classAffixMyCartIcon = ‘my-cart-icon-affix’;
+
+If (options.cartItems &amp;&amp; options.cartItems.constructor === Array) {
+
+ProductManager.clearProduct();
+
+$.each(options.cartItems, function () {
+
+ProductManager.setProduct(this.id, this.name, this.summary, this.price, this.quantity, this.image);
+
+});
+
+}
+
+$cartBadge.text(ProductManager.getTotalQuantity());
+
+If (!$(“#” + idCartModal).length) {
+
+$(‘body’).append(
+
+‘&lt;div class=”modal fade” id=”’ + idCartModal + ‘” tabindex=”-1” role=”dialog” aria-
+labelledby=”myModalLabel”&gt;’ +
+
+‘&lt;div class=”modal-dialog” role=”document”&gt;’ +
+
+‘&lt;div class=”modal-content”&gt;’ +
+
+‘&lt;div class=”modal-header”&gt;’ +
+
+‘&lt;button type=”button” class=”close” data-dismiss=”modal” aria-label=”Close”&gt;&lt;span aria-
+hidden=”true”&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;’ +
+
+‘&lt;h4 class=”modal-title” id=”myModalLabel”&gt;&lt;span class=”glyphicon glyphicon-shopping-
+cart”&gt;&lt;/span&gt; My Cart&lt;/h4&gt;’ +
+
+‘&lt;/div&gt;’ +
+
+‘&lt;div class=”modal-body”&gt;’ +
+
+‘&lt;table class=”table table-hover table-responsive” id=”’ + idCartTable + ‘”&gt;&lt;/table&gt;’ +
+
+‘&lt;/div&gt;’ +
+
+‘&lt;div class=”modal-footer”&gt;’ +
+
+‘&lt;button type=”button” class=”btn btn-default” data-dismiss=”modal”&gt;Close&lt;/button&gt;’ +
+
+‘&lt;button type=”button” class=”btn btn-primary ‘ + classCheckoutCart + ‘”&gt;Checkout&lt;/button&gt;’ +
+
+‘&lt;/div&gt;’ +
+
+‘&lt;/div&gt;’ +
+
+‘&lt;/div&gt;’ +
+
+‘&lt;/div&gt;’
+
+);
+
+}
+
+Var drawTable = function () {
+
+Var $cartTable = $(“#” + idCartTable);
+
+$cartTable.empty();
+
+Var products = ProductManager.getAllProducts();
+
+$.each(products, function () {
+
+Var total = this.quantity * this.price;
+
+$cartTable.append(
+
+‘&lt;tr title=”’ + this.summary + ‘” data-id=”’ + this.id + ‘” data-price=”’ + this.price + ‘”&gt;’ +
+
+‘&lt;td class=”text-center” style=”width: 30px;”&gt;&lt;img width=”30px” height=”30px” src=”’ +
+this.image + ‘”/&gt;&lt;/td&gt;’ +
+
+‘&lt;td&gt;’ + this.name + ‘&lt;/td&gt;’ +
+
+‘&lt;td title=”Unit Price” class=”text-right”&gt;’ + options.currencySymbol +
+MathHelper.getRoundedNumber(this.price) + ‘&lt;/td&gt;’ +
+
+‘&lt;td title=”Quantity”&gt;&lt;input type=”number” min=”1” style=”width: 70px;” class=”’ +
+classProductQuantity + ‘” value=”’ + this.quantity + ‘”/&gt;&lt;/td&gt;’ +
+
+‘&lt;td title=”Total” class=”text-right ‘ + classProductTotal + ‘”&gt;’ + options.currencySymbol +
+MathHelper.getRoundedNumber(total) + ‘&lt;/td&gt;’ +
+
+‘&lt;td title=”Remove from Cart” class=”text-center” style=”width: 30px;”&gt;&lt;a
+href=”javascript:void(0);” class=”btn btn-xs btn-danger ‘ + classProductRemove + ‘”&gt;X&lt;/a&gt;&lt;/td&gt;’ +
+
+‘&lt;/tr&gt;’
+
+);
+
+});
+
+$cartTable.append(products.length ?
+
+‘&lt;tr&gt;’ +
+
+‘&lt;td&gt;&lt;/td&gt;’ +
+
+‘&lt;td&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;’ +
+
+‘&lt;td&gt;&lt;/td&gt;’ +
+
+‘&lt;td&gt;&lt;/td&gt;’ +
+
+‘&lt;td class=”text-right”&gt;&lt;strong id=”’ + idGrandTotal + ‘”&gt;&lt;/strong&gt;&lt;/td&gt;’ +
+
+‘&lt;td&gt;&lt;/td&gt;’ +
+
+‘&lt;/tr&gt;’ :
+
+‘&lt;div class=”alert alert-danger” role=”alert” id=”’ + idEmptyCartMessage + ‘”&gt;Your cart is
+empty&lt;/div&gt;’
+
+);
+
+Var discountPrice = options.getDiscountPrice(products, ProductManager.getTotalPrice(),
+ProductManager.getTotalQuantity());
+
+If (products.length &amp;&amp; discountPrice !== null) {
+
+$cartTable.append(
+‘&lt;tr style=”color: red”&gt;’ +
+
+‘&lt;td&gt;&lt;/td&gt;’ +
+
+‘&lt;td&gt;&lt;strong&gt;Total (including discount)&lt;/strong&gt;&lt;/td&gt;’ +
+
+‘&lt;td&gt;&lt;/td&gt;’ +
+
+‘&lt;td&gt;&lt;/td&gt;’ +
+
+‘&lt;td class=”text-right”&gt;&lt;strong id=”’ + idDiscountPrice + ‘”&gt;&lt;/strong&gt;&lt;/td&gt;’ +
+
+‘&lt;td&gt;&lt;/td&gt;’ +
+
+‘&lt;/tr&gt;’
+
+);
+
+}
+
+showGrandTotal();
+
+showDiscountPrice();
+
+};
+
+Var showModal = function () {
+
+drawTable();
+
+$(“#” + idCartModal).modal(‘show’);
+
+};
+
+Var updateCart = function () {
+
+$.each($(“.” + classProductQuantity), function () {
+
+Var id = $(this).closest(“tr”).data(“id”);
+
+ProductManager.updatePoduct(id, $(this).val());
+
+});
+
+};
+
+Var showGrandTotal = function () {
+
+$(“#” + idGrandTotal).text(options.currencySymbol +
+MathHelper.getRoundedNumber(ProductManager.getTotalPrice()));
+
+};
+
+Var showDiscountPrice = function () {
+
+$(“#” + idDiscountPrice).text(options.currencySymbol +
+MathHelper.getRoundedNumber(options.getDiscountPrice(ProductManager.getAllProducts(),
+ProductManager.getTotalPrice(), ProductManager.getTotalQuantity())));
+
+};
+
+/*
+
+EVENT
+
+*/
+
+If (options.affixCartIcon) {
+
+Var cartIconBottom = $cartIcon.offset().top * 1 + $cartIcon.css(“height”).match(/\d+/) * 1;
+
+Var cartIconPosition = $cartIcon.css(‘position’);
+
+$(window).scroll(function () {
+
+$(window).scrollTop() &gt;= cartIconBottom ? $cartIcon.addClass(classAffixMyCartIcon) :
+$cartIcon.removeClass(classAffixMyCartIcon);
+
+});
+
+}
+
+$cartIcon.click(function () {
+
+Options.showCheckoutModal ? showModal() : options.clickOnCartIcon($cartIcon,
+ProductManager.getAllProducts(), ProductManager.getTotalPrice(),
+ProductManager.getTotalQuantity());
+
+});
+
+$(document).on(“input”, “.” + classProductQuantity, function () {
+
+Var price = $(this).closest(“tr”).data(“price”);
+
+Var id = $(this).closest(“tr”).data(“id”);
+
+Var quantity = $(this).val();
+
+$(this).parent(“td”).next(“.” + classProductTotal).text(options.currencySymbol +
+MathHelper.getRoundedNumber(price * quantity));
+
+ProductManager.updatePoduct(id, quantity);
+
+$cartBadge.text(ProductManager.getTotalQuantity());
+
+showGrandTotal();
+
+showDiscountPrice();
+
+});
+
+$(document).on(‘keypress’, “.” + classProductQuantity, function (evt) {
+
+If (evt.keyCode &gt;= 48 &amp;&amp; evt.keyCode &lt;= 57) {
+
+Return;
+
+}
+
+Evt.preventDefault();
+
+});
+
+$(document).on(‘click’, “.” + classProductRemove, function () {
+
+Var $tr = $(this).closest(“tr”);
+
+Var id = $tr.data(“id”);
+
+$tr.hide(500, function () {
+
+ProductManager.removeProduct(id);
+
+drawTable();
+
+$cartBadge.text(ProductManager.getTotalQuantity());
+
+});
+
+});
+
+$(document).on(‘click’, “.” + classCheckoutCart, function () {
+
+Var products = ProductManager.getAllProducts();
+
+If (!products.length) {
+
+$(“#” + idEmptyCartMessage).fadeTo(‘fast’, 0.5).fadeTo(‘fast’, 1.0);
+
+Return;
+
+}
+
+updateCart();
+
+var isCheckedOut = options.checkoutCart(ProductManager.getAllProducts(),
+ProductManager.getTotalPrice(), ProductManager.getTotalQuantity());
+
+if (isCheckedOut !== false) {
+
+ProductManager.clearProduct();
+
+$cartBadge.text(ProductManager.getTotalQuantity());
+
+$(“#” + idCartModal).modal(“hide”);
+
+}
+
+});
+
+$(document).on(‘click’, targetSelector, function () {
+
+Var $target = $(this);
+
+Options.clickOnAddToCart($target);
+
+Var id = $target.data(‘id’);
+
+Var name = $target.data(‘name’);
+
+Var summary = $target.data(‘summary’);
+
+Var price = $target.data(‘price’);
+
+Var quantity = $target.data(‘quantity’);
+
+Var image = $target.data(‘image’);
+
+ProductManager.setProduct(id, name, summary, price, quantity, image);
+
+$cartBadge.text(ProductManager.getTotalQuantity());
+
+Options.afterAddOnCart(ProductManager.getAllProducts(), ProductManager.getTotalPrice(),
+ProductManager.getTotalQuantity());
+
+});
+
+};
+
+$.fn.myCart = function (userOptions) {
+
+OptionManager.loadOptions(userOptions);
+
+loadMyCartEvent(this.selector);
+
+return this;
+
+};
+
+})(jQuery);
+
+Jquery.mycart.min.js
+
+(function(t){
+
+“usestrict”;
+Var e,a,r,o,n,i=(e={},a=null,r={currencySymbol:”$”,classCartIcon:”my-cart-icon”,classCartBadge:”my-
+cart-badge”,classProductQuantity:”my-product-quantity”,classProductRemove:”my-product-
+remove”,classCheckoutCart:”my-cart-
+checkout”,affixCartIcon:!0,showCheckoutModal:!0,numberOfDecimals:2,cartItems:null,clickOnAddToCa
+rt:function(t){},afterAddOnCart:function(t,e,a){},clickOnCartIcon:function(t,e,a,r){},checkoutCart:functio
+n(t,e,a){return!1},getDiscountPrice:function(t,e,a){return
+null}},o=function€{a=t.extend({},r),”object”==typeof e&amp;&amp;t.extend(a,e)},n=function(){return
+a},e.loadOptions=o,e.getOptions=n,e),c=function(){var t={},e=function(t){if(isNaN(t))throw new
+Error(“Parameter is not a Number”);t*=1;var e=i.getOptions();return
+t.toFixed(e.numberOfDecimals)};return t.getRoundedNumber=e,t}(),d=function(){var e={};const
+a=”__mycart”;localStorage[a]=localStorage[a]?localStorage[a]:””;var r=function€{var a=-1,r=i();return
+t.each(r,function(t,r){r.id!=e||(a=t)}),a},o=function(t){localStorage[a]=JSON.stringify(t)},n=function(t,e,a,
+r,n,c){var d=i();d.push({id:t,name:e,summary:a,price:r,quantity:n,image:c}),o(d)},i=function(){try{var
+t=JSON.parse(localStorage[a]);return t}catch(t){return[]}},d=function(t,e,a){var n=r(t);if(n&lt;0)return!1;var
+c=i();return c[n].quantity=a?1*c[n].quantity+(void 0===e?1:1*e):void
+0===e?1*c[n].quantity+1:1*e,o©,!0},s=function(e,a,r,o,I,c){return void 0===e?(console.error(“id
+required”),!1):void 0===a?(console.error(“name required”),!1):void 0===c?(console.error(“image
+required”),!1):t.isNumeric(o)?t.isNumeric(i)?(r=void
+0===r?””:r,void(d(e,I,!0)||n(e,a,r,o,I,c)))console.error(“quantity is not a
+number”),!1)console.error(“price is not a number”),!1)},u=function(){o([])},l=function€{var
+a=i();a=t.grep(a,function(t,a){return t.id!=e}),o(a)},m=function(){var e=0,a=i();return
+t.each(a,function(t,a){e+=1*a.quantity}),e},y=function(){var e=i(),a=0;return
+t.each(e,function(t,e){a+=e.quantity*e.price,a=1*c.getRoundedNumber(a)}),a};return
+e.getAllProducts=I,e.updatePoduct=d,e.setProduct=s,e.clearProduct=u,e.removeProduct=l,e.getTotalQu
+antity=m,e.getTotalPrice=y,e}(),s=function€{var
+a=i.getOptions(),r=t(“.”+a.classCartIcon),o=t(“.”+a.classCartBadge),n=a.classProductQuantity,s=a.classPr
+
+oductRemove,u=a.classCheckoutCart,l=”my-cart-modal”,m=”my-cart-table”,y=”my-cart-grand-
+total”,g=”my-cart-empty-message”,h=”my-cart-discount-price”,f=”my-product-total”,p=”my-cart-icon-
+affix”;a.cartItems&amp;&amp;a.cartItems.constructor===Array&amp;&amp;(d.clearProduct(),t.each(a.cartItems,function(){
+d.setProduct(this.id,this.name,this.summary,this.price,this.quantity,this.image)})),o.text(d.getTotalQuan
+tity()),t(“#”+l).length||t(“body”).append(‘&lt;div class=”modal fade” id=”’+l+’” tabindex=”-1” role=”dialog”
+aria-labelledby=”myModalLabel”&gt;&lt;div class=”modal-dialog” role=”document”&gt;&lt;div class=”modal-
+content”&gt;&lt;div class=”modal-header”&gt;&lt;button type=”button” class=”close” data-dismiss=”modal” aria-
+label=”Close”&gt;&lt;span aria-hidden=”true”&gt;&amp;times;&lt;/span&gt;&lt;/button&gt;&lt;h4 class=”modal-title”
+id=”myModalLabel”&gt;&lt;span class=”glyphicon glyphicon-shopping-cart”&gt;&lt;/span&gt; My Cart&lt;/h4&gt;&lt;/div&gt;&lt;div
+class=”modal-body”&gt;&lt;table class=”table table-hover table-responsive” id=”’+m+’”&gt;&lt;/table&gt;&lt;/div&gt;&lt;div
+class=”modal-footer”&gt;&lt;button type=”button” class=”btn btn-default” data-
+dismiss=”modal”&gt;Close&lt;/button&gt;&lt;button type=”button” class=”btn btn-primary
+‘+u+’”&gt;Checkout&lt;/button&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;’);var v=function(){var e=t(“#”+m);e.empty();var
+r=d.getAllProducts();t.each(r,function(){var t=this.quantity*this.price;e.append(‘&lt;tr
+title=”’+this.summary+’” data-id=”’+this.id+’” data-price=”’+this.price+’”&gt;&lt;td class=”text-center”
+style=”width: 30px;”&gt;&lt;img width=”30px” height=”30px”
+src=”’+this.image+’”/&gt;&lt;/td&gt;&lt;td&gt;’+this.name+’&lt;/td&gt;&lt;td title=”Unit Price” class=”text-
+right”&gt;’+a.currencySymbol+c.getRoundedNumber(this.price)+’&lt;/td&gt;&lt;td title=”Quantity”&gt;&lt;input
+type=”number” min=”1” style=”width: 70px;” class=”’+n+’” value=”’+this.quantity+’”/&gt;&lt;/td&gt;&lt;td
+title=”Total” class=”text-right ‘+f+’”&gt;’+a.currencySymbol+c.getRoundedNumber(t)+’&lt;/td&gt;&lt;td
+title=”Remove from Cart” class=”text-center” style=”width: 30px;”&gt;&lt;a href=”javascript:void(0);”
+class=”btn btn-xs btn-danger
+‘+s+’”&gt;X&lt;/a&gt;&lt;/td&gt;&lt;/tr&gt;’)}),e.append(r.length?’&lt;tr&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Total&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td
+&gt;&lt;td&gt;&lt;/td&gt;&lt;td class=”text-right”&gt;&lt;strong id=”’+y+’”&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;’:’&lt;div class=”alert
+alert-danger” role=”alert” id=”’+g+’”&gt;Your cart is empty&lt;/div&gt;’);var
+o=a.getDiscountPrice(r,d.getTotalPrice(),d.getTotalQuantity());r.length&amp;&amp;null!==o&amp;&amp;e.append(‘&lt;tr
+style=”color: red”&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;strong&gt;Total (including
+discount)&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;td class=”text-right”&gt;&lt;strong
+id=”’+h+’”&gt;&lt;/strong&gt;&lt;/td&gt;&lt;td&gt;&lt;/td&gt;&lt;/tr&gt;’),C(),x()},b=function(){v(),t(“#”+l).modal(“show”)},P=function()
+{t.each(t(“.”+n),function(){var
+e=t(this).closest(“tr”).data(“id”);d.updatePoduct(e,t(this).val())})},C=function(){t(“#”+y).text(a.currencySy
+mbol+c.getRoundedNumber(d.getTotalPrice()))},x=function(){t(“#”+h).text(a.currencySymbol+c.getRoun
+dedNumber(a.getDiscountPrice(d.getAllProducts(),d.getTotalPrice(),d.getTotalQuantity())))};if(a.affixCart
+Icon){var
+T=1*r.offset().top+1*r.css(“height”).match(/\d+/);r.css(“position”);t(window).scroll(function(){t(window
+).scrollTop()&gt;=T?r.addClass(p):r.removeClass(p)})}r.click(function(){a.showCheckoutModal?b():a.clickOnC
+artIcon(r,d.getAllProducts(),d.getTotalPrice(),d.getTotalQuantity())}),t(document).on(“input”,”.”+n,functi
+on(){var
+e=t(this).closest(“tr”).data(“price”),r=t(this).closest(“tr”).data(“id”),n=t(this).val();t(this).parent(“td”).nex
+t(“.”+f).text(a.currencySymbol+c.getRoundedNumber(e*n)),d.updatePoduct(r,n),o.text(d.getTotalQuanti
+ty()),C(),x()}),t(document).on(“keypress”,”.”+n,function(t){t.keyCode&gt;=48&amp;&amp;t.keyCode&lt;=57||t.preventD
+efault()}),t(document).on(“click”,”.”+s,function(){var
+e=t(this).closest(“tr”),a=e.data(“id”);e.hide(500,function(){d.removeProduct(a),v(),o.text(d.getTotalQuan
+tity())})}),t(document).on(“click”,”.”+u,function(){var e=d.getAllProducts();if(e.length){P();var
+
+r=a.checkoutCart(d.getAllProducts(),d.getTotalPrice(),d.getTotalQuantity());!1!==r&amp;&amp;(d.clearProduct(),o.
+text(d.getTotalQuantity()),t(“#”+l).modal(“hide”))}else
+t(“#”+g).fadeTo(“fast”,.5).fadeTo(“fast”,1)}),t(document).on(“click”,e,function(){var
+e=t(this);a.clickOnAddToCart€;var
+r=e.data(“id”),n=e.data(“name”),i=e.data(“summary”),c=e.data(“price”),s=e.data(“quantity”),u=e.data(“i
+mage”);d.setProduct(r,n,I,c,s,u),o.text(d.getTotalQuantity()),a.afterAddOnCart(d.getAllProducts(),d.getT
+otalPrice(),d.getTotalQuantity())})};t.fn.myCart=function(t){return
+i.loadOptions(t),s(this.selector),this}})(jQuery);
+
+Book.html
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+
+&lt;meta charset=”utf-8”&gt;
+
+&lt;meta http-equiv=”X-UA-Compatible” content=”IE=edge”&gt;
+
+&lt;title&gt;Reservation Form&lt;/title&gt;
+
+&lt;meta name=”viewport” content=”width=device-width, initial-scale=1”&gt;
+
+&lt;link rel=”stylesheet” href=”main.css”&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;section class = “banner”&gt;
+
+&lt;h2&gt;BOOK YOUR TABLE NOW&lt;/h2&gt;
+
+&lt;div class = “card-container”&gt;
+
+&lt;div class = “food.jpg”&gt;
+
+&lt;!—image here 
+
+&lt;/div&gt;
+
+&lt;div class = “card-content”&gt;
+
+&lt;h3&gt;Reservation&lt;/h3&gt;
+
+&lt;form action=”thanks.html” &gt;
+
+&lt;div class = “form-row”&gt;
+
+&lt;select name = “date”&gt;
+
+&lt;option value = “day-select”&gt;Select Day&lt;/option&gt;
+
+&lt;option value = “Sunday”&gt;Sunday&lt;/option&gt;
+
+&lt;option value = “Monday”&gt;Monday&lt;/option&gt;
+
+&lt;option value = “Tuesday”&gt;Tuesday&lt;/option&gt;
+
+&lt;option value = “Wednesday”&gt;Wednesday&lt;/option&gt;
+
+&lt;option value = “Thursday”&gt;Thursday&lt;/option&gt;
+
+&lt;option value = “Friday”&gt;Friday&lt;/option&gt;
+
+&lt;option value = “Saturday”&gt;Saturday&lt;/option&gt;
+
+&lt;/select&gt;
+
+&lt;select name = “hours” required&gt;
+
+&lt;option value = “hour-select”&gt;Select Hour&lt;/option&gt;
+
+&lt;option value = “10”&gt;10: 00&lt;/option&gt;
+
+&lt;option value = “10”&gt;12: 00&lt;/option&gt;
+
+&lt;option value = “10”&gt;14: 00&lt;/option&gt;
+
+&lt;option value = “10”&gt;16: 00&lt;/option&gt;
+
+&lt;option value = “10”&gt;18: 00&lt;/option&gt;
+
+&lt;option value = “10”&gt;20: 00&lt;/option&gt;
+
+&lt;option value = “10”&gt;22: 00&lt;/option&gt;
+
+&lt;/select&gt;
+
+&lt;select name = “hours” required&gt;
+
+&lt;option value = “Restaurant-select”&gt;pick a Restaurant&lt;/option&gt;
+
+&lt;option value = “10”&gt;Food hub&lt;/option&gt;
+
+&lt;option value = “10”&gt;zaika&lt;/option&gt;
+
+&lt;option value = “10”&gt;warm delight&lt;/option&gt;
+
+&lt;option value = “10”&gt;soicy space&lt;/option&gt;
+
+&lt;option value = “10”&gt;coffee &amp; crisp&lt;/option&gt;
+
+&lt;option value = “10”&gt;Art with food&lt;/option&gt;
+
+&lt;option value = “10”&gt;Foodies&lt;/option&gt;
+
+&lt;/select&gt;
+
+&lt;/div&gt;
+
+&lt;div class = “form-row”&gt;
+
+&lt;input type = “text” placeholder=”Full Name” required&gt;
+
+&lt;input type = “text” placeholder=”Phone Number” pattern=”[0-9]{3}-[0-9]{3}-[0-9]{4}”
+required&gt;
+
+&lt;/div&gt;
+
+&lt;div class = “form-row”&gt;
+
+&lt;input type = “number” placeholder=”How Many Persons?” min = “1” required&gt;
+
+&lt;/div&gt;
+
+&lt;div class = “form-row”&gt;
+
+&lt;input type = “submit” value = “BOOK TABLE” onclick=”myfunction()”&gt;
+
+&lt;/div&gt;
+
+&lt;/form&gt;
+
+&lt;/div&gt;
+
+&lt;/div&gt;
+
+&lt;/section&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
+
+Main.css
+
+@import url(‘https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&amp;display=swap’);
+
+*{
+
+Box-sizing: border-box;
+
+Padding: 0;
+
+Margin: 0;
+
+}
+
+Body{
+
+Font-family: ‘Poppins’, sans-serif;
+
+}
+
+.banner{
+
+Min-height: 100vh;
+
+Background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(“rest1.jpg”) center/cover no-
+repeat;
+
+Display: flex;
+
+Flex-direction: column;
+
+Justify-content: center;
+
+Align-items: center;
+
+Color: #fff;
+
+Padding-bottom: 20px;
+
+}
+
+.card-container{
+
+Display: grid;
+
+Grid-template-columns: 700px 700px;
+
+}
+
+.card-img{
+
+Background: url(“rest1.jpg”) center/cover no-repeat;
+
+}
+
+.banner h2{
+
+Padding-bottom: 40px;
+
+Margin-bottom: 20px;
+
+}
+
+.card-content{
+
+Background: #fff;
+
+Height: 330px;
+
+}
+
+.card-content h3{
+
+Text-align: center;
+
+Color: #000;
+
+Padding: 25px 0 10px 0;
+
+Font-size: 26px;
+
+Font-weight: 500;
+
+}
+
+.form-row{
+
+Display: flex;
+
+Width: 90%;
+
+Margin: 0 auto;
+
+}
+
+Form select, form input{
+
+Display: block;
+
+Width:100%;
+
+Margin: 15px 12px;
+
+Padding: 5px;
+
+Font-size: 15px;
+
+Font-family: ‘Poppins’, sans-serif;
+
+Outline: none;
+
+Border: none;
+
+Border-bottom: 1px solid #eee;
+
+Font-weight: 300;
+
+}
+
+Form input[type = text], form input[type = number], form input::placeholder, select{
+
+Color: #9a9a9a;
+
+}
+
+Form input[type = submit]{
+
+Color: #fff;
+
+Background: #f2745f;
+
+Padding: 12px 0;
+
+Border-radius: 4px;
+
+Cursor: pointer;
+
+}
+
+Form input[type = submit]:hover{
+
+Opacity: 0.9;
+
+}
+
+@media(max-width: 992px){
+
+.card-container{
+
+Grid-template-columns: 100%;
+
+Width: 100vw;
+
+}
+
+.card-img{
+
+Height: 330px;
+
+}
+Thanks.html
+
+&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+
+&lt;title&gt;thanks&lt;/title&gt;
+
+&lt;link rel=”stylesheet” href=”css/main.css”&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;a href=”index.html” class=”btn main-btn sushi-btn my-4 text-capitalize”&gt;go to home
+page&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;h1&gt;Table booking successful!&lt;/h1&gt;
+
+&lt;/center&gt;
+
+&lt;/font&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;&lt;!DOCTYPE html&gt;
+
+&lt;html&gt;
+
+&lt;head&gt;
+
+&lt;title&gt;thanks&lt;/title&gt;
+
+&lt;link rel=”stylesheet” href=”css/main.css”&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+&lt;a href=”index.html” class=”btn main-btn sushi-btn my-4 text-capitalize”&gt;go to home
+page&lt;/a&gt;&lt;br&gt;&lt;br&gt;&lt;br&gt;
+
+&lt;h1&gt;Table booking successful!&lt;/h1&gt;
+
+&lt;/center&gt;
+
+&lt;/font&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;
